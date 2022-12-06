@@ -17,4 +17,21 @@ const create = async () => {
     });
 };
 
+
+
+// import { writeFile } from 'node:fs/promises';
+// import { join } from 'path';
+// import { fileURLToPath } from 'url';
+
+// const create = async () => {
+//     const file = join(fileURLToPath(import.meta.url), '../files', 'fresh.txt');
+
+//     try {
+//         await writeFile(file, 'I am fresh and young', { flag: 'wx' });
+//         console.log('Файл создан 😁');
+//     } catch (err) {
+//         throw new Error('FS operation failed');
+//     };
+// };
+
 await create();
