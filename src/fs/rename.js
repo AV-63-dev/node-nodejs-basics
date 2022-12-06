@@ -1,4 +1,4 @@
-import path, { join } from 'path';
+import { join } from 'path';
 import { fileURLToPath } from 'url';
 import { rename as renameFile, access, constants } from 'node:fs/promises';
 
